@@ -3,6 +3,12 @@ import java.util.List;
 
 public class TwoMethod {
 
+
+    /**
+     * The fibRecursive method returns the nth number of the Fibonacci sequence to a given input
+     * @param n is the given input for the number at that position of the Fibonacci sequence
+     * @return returns exact number at position N
+     */
     public static int fibRecursive(int n) {
         List<Integer> fibonacciSeq = new ArrayList<>();
         fibonacciSeq.add(0);
